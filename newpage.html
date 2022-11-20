@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>new page </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="newpage.css">
+</head>
+<body>
+     <div id="wrapper">
+        <div class="form">
+            <form action="" class="boxes">
+            <div class="box">
+                <span>Full Name</span>
+                <input type="text" placeholder="full name">
+            </div>
+            <div class="boxess">
+                <span>Role   </span>
+                <input type="text" placeholder="product owner 1">
+                <input type="text" placeholder="product owner 2">
+                <a href=""> <i class="fa-solid fa-plus"></i></a>
+            </div>
+            <div class="boxesss">
+                <span>Exp </span>
+                <input type="text" placeholder="">
+                <p>year</p>
+            </div>
+
+            </form>
+        </div>
+     </div>
+     <script>
+        let anchor = document.querySelector("a")
+        
+        anchor.onclick = function(e){
+            e.preventDefault()
+            let input = document.createElement("input")
+            let div = document.createElement("div")
+
+            input.setAttribute("type", "text")
+            input.setAttribute("placeholder", "business owner")
+
+             let  asd = document.querySelector(".boxess")
+             asd.insertAdjacentElement("afterEnd" ,div)
+             div.appendChild(input)
+        }
+
+
+     </script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+#wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    display: flex;
+
+    align-items: center;
+}
+.box{
+  
+    display: flex;
+    margin: 10px;
+   
+
+}
+.box span{
+ 
+    padding-right: 40px;
+}
+.box input{
+    width: 80%;
+    height: 40px;
+
+}
+.boxes input{
+    width: 50%;
+    height: 40px;
+    margin: 5px;
+    padding-left: 10px;
+    
+}
+.boxess{
+    display: flex;
+    margin: 10px;
+}
+.boxess span{
+    padding-right: 80px;
+}
+.boxesss{
+    display: flex;
+    margin: 10px;
+}
+.boxesss span{
+    padding-right: 85px;
+}
+.boxesss input{
+    width: 40%;
+    height: 40px;
+}
+p{
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    margin: 5px;
+}
+a i{
+  border: 2px solid ;
+  border-radius: 50%;
+    color: rgb(6, 6, 7);
+    font-size: 30px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+   
+}
+a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
